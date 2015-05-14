@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>小鱼天气</title>
-  
+
   <!-- core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
@@ -11,11 +11,11 @@
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <![endif]-->
 </head><!--/head-->
 
 <body class="homepage">
-    <header id="header">
+    <header id="header" class='container'>
         <nav class="navbar" role="banner">
             <div class="container">
                 <div class="navbar-header">
@@ -23,14 +23,11 @@
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <span>兵库北 14°~19°</span>
-
-                    </ul>
+                    <span>兵库北 14°~19°</span>
                 </div>
             </div><!--/.container-->
         </nav><!--/nav-->
-    
+
     </header><!--/header-->
 
     <section id="main-slider" class="no-margin">
@@ -82,10 +79,8 @@
             </div><!--/.carousel-inner-->
         </div><!--/.carousel-->
         <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <img src="./img/left.png">
         </a>
         <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <img src="./img/right.png">
         </a>
     </section><!--/#main-slider-->
 
@@ -93,25 +88,25 @@
         <div class="container">
             <div class="app">
                 <div class="appimg">
-                    <img src="./img/ios.png">
+                    <div class="logo apple-logo"></div>
                 </div>
                 <div class="appbtn">
-                    <button class="appbutton">IOS V1.0</button>
+                    <span class="appbutton">IOS V1.0</span>
                 </div>
             </div>
             <div class="app">
                 <div class="appimg">
-                    <img src="./img/windows.png">
+                    <div class='ms-logo logo'></div>
                 </div>
                 <div class="appbtn">
-                    <button class="appbutton">Windows V1.0</button>
+                    <span class="appbutton">Windows V1.0</span>
                 </div>            </div>
             <div class="app">
                 <div class="appimg">
-                    <img src="./img/android.png">
+                    <div class="logo android-logo"></div>
                 </div>
                 <div class="appbtn">
-                    <button class="appbutton">Android V1.0</button>
+                    <span class="appbutton">Android V1.0</span>
                 </div>            </div>
         </div>
     </section>
